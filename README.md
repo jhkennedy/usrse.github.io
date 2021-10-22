@@ -12,7 +12,7 @@ The site is built with [Jekyll](https://jekyllrb.com/) and hosted on GitHub.
 ## How do I contribute?
 
 We encourage the community to contribute to the content of the website.  
-To do this: fork the repository, make your proposed changes, test locally (see below), and then create a pull request against `master`. For more details about opening pull requests and issues, see our [Contributing Guide](.github/CONTRIBUTING.md).
+To do this: fork the repository, make your proposed changes, test locally (see below), and then create a pull request against `main`. For more details about opening pull requests and issues, see our [Contributing Guide](.github/CONTRIBUTING.md).
 
 ### 1. How do I update the map?
 
@@ -33,8 +33,11 @@ can open a pull request to update the date. An example posting is shown below. T
 job would appear on the site until the first of July, 2019.
 
 ```yaml
-- {expires: 2019-07-01, posted: 2019-02-01, location: 'Princeton, NJ',
-    name: 'Research Software Engineer', url: 'https://main-princeton.icims.com/jobs'}
+- expires: 2019-07-01
+  location: 'Princeton, NJ',
+  name: 'Research Software Engineer'
+  posted: 2019-02-01
+  url: 'https://main-princeton.icims.com/jobs'
 ```
 
 And don't forget to write your new job at the top of the [_data/jobs.yml](_data/jobs.yml) file!
